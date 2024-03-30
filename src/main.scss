@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box ;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+	line-height: 1;
+}
+menu, ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// 增加 flex 快捷样式，不用每次都设置
+.fl,
+.flv {
+    display: flex;
+}
+.flv {
+    flex-direction: column;
+}
+.fl_ai_fs {
+    align-items: flex-start;
+}
+.fl_ai_c {
+    align-items: center;
+}
+.fl_ai_fe {
+    align-items: flex-end;
+}
+.fl_ai_s {
+    align-items: stretch;
+}
+.fl_ai_b {
+    align-items: baseline;
+}
+.fl_jc_fs {
+    justify-content: flex-start;
+}
+.fl_jc_c {
+    justify-content: center;
+}
+.fl_jc_fe {
+    justify-content: flex-end;
+}
+.fl_jc_sb {
+    justify-content: space-between;
+}
+.fl_jc_sa {
+    justify-content: space-around;
+}
+.fl_ac_fs {
+    align-content: flex-start;
+}
+.fl_ac_c {
+    align-content: center;
+}
+.fl_ac_fe {
+    align-content: flex-end;
+}
+.fl_ac_s {
+    align-content: stretch;
+}
+.fl_ac_sb {
+    align-content: space-between;
+}
+.fl_ac_sa {
+    align-content: space-around;
+}
+.fl_as_fs {
+    align-self: flex-start;
+}
+.fl_as_c {
+    align-self: center;
+}
+.fl_as_fe {
+    align-self: flex-end;
+}
+.fl_as_b {
+    align-self: baseline;
+}
+.fl_as_s {
+    align-self: stretch;
+}
+.fl_wrap {
+    flex-wrap: wrap;
+}
+.fl1 {
+    flex: 1;
+}
+.fl2 {
+    flex: 2;
+}
+.fl3 {
+    flex: 3;
+}
+.fl4 {
+    flex: 4;
+}
+.fl5 {
+    flex: 5;
+}
+.fl6 {
+    flex: 6;
+}
+.fl7 {
+    flex: 7;
+}
+.fl8 {
+    flex: 8;
+}
+.fl9 {
+    flex: 9;
+}
+.fl10 {
+    flex: 10;
+}
+.fl_row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fl_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.fl_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ui框架样式覆盖 */
+
+/* 各种css样式调整 */
+.mgT10{
+    margin-top: 10px;
+}
+.mgB8{
+    margin-bottom: 8px;
+}
